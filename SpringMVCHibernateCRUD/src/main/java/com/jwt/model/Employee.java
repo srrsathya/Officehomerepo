@@ -20,7 +20,7 @@ public class Employee implements Serializable {
    @GeneratedValue(strategy = GenerationType.AUTO)
    private int id;
 
-   @Column
+   @Column(name="name")
    private String name;
 
    @Column
